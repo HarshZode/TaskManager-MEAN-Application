@@ -1,0 +1,25 @@
+version: "3.8"
+services:
+  app-frontend:
+    build: ./frontend
+    ports:
+      - 4200:4200
+    depends_on: 
+      - app-backend
+  app-backend:
+    build: ./backend
+    ports:
+      - 3000:3000
+    depends_on:
+      - app-database
+    environment:
+      MONGO_LINK: mongodb://app-database/database
+  app-database:
+    image: mongo:4.0.28-xenial
+    ports:
+      - 27017:27017
+    volumes:
+      - database:/data/db
+
+volumes:
+  database:
