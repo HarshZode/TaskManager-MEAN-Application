@@ -19,7 +19,9 @@ app.use((req, res, next) => {
 List : Create, Update, ReadOne, ReadAll, Delete
 Task : Create, Update, ReadOne, ReadAll, Delete
 */
-
+app.get('/api', (req,res) =>{
+    res.send("API is Working")
+});
 app.get('/lists', (req,res) =>{
     List.find({})
         .then(list=> res.send(list))
