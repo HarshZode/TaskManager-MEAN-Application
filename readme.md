@@ -18,7 +18,7 @@ To run this app, follow these steps:
 ### Clone this repository to your local machine:
 
    
-   `git clone https://github.com/your-username/mean-docker-compose.git`
+   `git clone https://github.com/HarshZode/TaskManager-MEAN-Application.git`
 
 
 ### Navigate to the mean-docker-compose directory:
