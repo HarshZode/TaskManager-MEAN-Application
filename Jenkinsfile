@@ -1,9 +1,5 @@
 pipeline {
-    agent { 
-        node {
-            label 'docker-agent-node-alpine'
-            }
-      }
+    agent any
     stages {
         stage('Build Frontend') {
             steps {
