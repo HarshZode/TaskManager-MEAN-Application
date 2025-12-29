@@ -3,7 +3,7 @@
 ![Todo Home](https://cdn.discordapp.com/attachments/837986831365963806/1111517456641556561/image.png)
 
 MEAN Stack App with Docker Compose
-This is a sample MEAN stack application that is containerized with Docker and uses Docker Compose. It includes a Node.js backend, an Angular frontend, and a MongoDB database.
+This is a MEAN stack application that is containerized with Docker and uses Docker Compose. It includes a Node.js backend, an Angular frontend, and a MongoDB database.
 
 # Prerequisites
 Before you can run this app, you must have the following software installed:
